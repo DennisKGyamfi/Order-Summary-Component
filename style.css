@@ -1,0 +1,106 @@
+:root {
+    --color-primary: hsl(245, 75%, 52%);
+    --color-paleBlue:hsl(225, 100%, 94%);
+    --color-veryPaleBlue: hsl(225, 100%, 98%);
+    --color-desaturatedBlue: hsl(224, 23%, 55%);
+    --color-darkBlue: hsl(223, 47%, 23%);
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    color: var(--color-desaturatedBlue);
+    background-color: var(--color-desaturatedBlue);
+}
+
+.hero {
+    display: inline-block;
+    background-color: var(--color-veryPaleBlue);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 450px;
+}
+
+.image {
+    border-radius: 15px 15px 0 0 ;
+}
+
+p {
+    font-size: 18px;
+}
+
+h2, h3 {
+color: var(--color-darkBlue);
+}
+
+.hero-description {
+width: 300px;
+margin: 0 auto;
+padding: 10px;
+}
+
+.musicAnnualSection {
+display: flex;
+justify-content:space-evenly;
+align-content: center;
+align-items: center;
+padding: 5px;
+margin: 10px auto;
+background-color: var(--color-veryPaleBlue);
+border-radius: 10px;
+width: 350px; 
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.plan {
+    line-height: 3px;
+}
+
+.btn {
+ margin: 10px auto;
+ padding: 20px;
+ border-radius: 10px;
+ border: none;
+ width: 370px;
+ background-color: var(--color-primary);
+ color: var(--color-veryPaleBlue);
+ font-weight: 700px;
+ font-size: 18px;
+}
+
+.btn:active {
+background-color:var(--color-primary);
+}
+
+.change-link a {
+color: var(--color-darkBlue);
+}
+
+.btn-container p {
+    font-weight: 900px;
+}
+
+.change-link a:active {
+color: var(--color-primary);
+}
+
+.btn-container p a {
+    text-decoration: none;
+color: var(--color-desaturatedBlue);
+font-weight: 500px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: var(--color-paleBlue);
+}
+
+.attribution a {
+    color: var(--color-veryPaleBlue);
+    text-decoration: none;
+}
+
